@@ -1,0 +1,5 @@
+name: MRecommend
+api: 3.10.0
+version: 1.0.0
+main: MRecommend\MRecommend
+author: AvasKr
