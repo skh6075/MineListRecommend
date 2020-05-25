@@ -1,0 +1,35 @@
+prefix: "§l§b[마인리스트]§r§7 "
+
+not-found-minelist-address: "마인리스트 추천 주소를 setting.json 에 적어주세요."
+site-not-access: "마인리스트 추천 주소에 접속할 수 없습니다."
+
+command-use-only-ingame: "해당 명령어는 인게임 안에서만 사용이 가능합니다."
+command-use-not-permission: "당신은 이 명령어를 사용할 권한이 없습니다."
+
+add-reward-command-name: "추천보상 추가"
+add-reward-command-description: "추천보상 추가 명령어 입니다."
+
+add-reward-item-not-air: "추천보상 아이템으로 공기는 추가할 수 없습니다."
+add-reward-item-success: "손에든 아이템을 추천보상에 추가했습니다."
+
+delete-reward-command-name: "추천보상 삭제"
+delete-reward-command-description: "추천보상 삭제 명령어 입니다."
+
+delete-reward-help: "/추천보상 삭제 [보상 번호]"
+delete-reward-key-not-found: "해당 보상 번호는 존재하지 않습니다. /추천보상 목록 명령어를 이용해주세요."
+delete-reward-key-success: "해당 보상 번호의 보상을 삭제하셨습니다."
+
+list-reward-command-name: "추천보상 목록"
+list-reward-command-description: "추천보상 목록 명령어 입니다."
+
+list-reward-insufficient-count: "추천보상 아이템 개수가 0개 입니다."
+
+list-reward-boundary-1: "= = = = = = = 추천보상 목록 (%page% / %max_page% 페이지) = = = = = = ="
+list-reward-boundary-2: "§l§b[%index%번]§r§7 아이템명: §a%item_name%§r§7  /  아이템 수량: §a%item_count%§7개"
+
+recommned-command-name: "추천"
+recommned-command-description: "마인리스트 추천 보상 수령 명령어 입니다."
+
+not-found-recommend: "당신의 추천 기록이 존재하지 않습니다."
+isset-recommend: "이미 추천보상을 수령 하셨습니다."
+success-recommend: "§a%name%님§7 께서 §a마인리스트 추천 보상§7 을(를) 수령하셨습니다."
