@@ -51,7 +51,7 @@ class MineListInternet{
             $search = self::getSearch ($name);
             
             if (!isset ($search [$date])) {
-                $player->sendMesaage (MRecommend::getInstance ()->getLang ()->format ('not-found-recommend'));
+                $player->sendMessage (MRecommend::getInstance ()->getLang ()->format ('not-found-recommend'));
                 return;
             }
             MRecommend::getInstance ()->addDatePlayer ($date, $name);
