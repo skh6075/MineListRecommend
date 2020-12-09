@@ -1,0 +1,14 @@
+name: MinelistRecommend
+main: skh6075\minelistrecommend\MinelistRecommend
+author: AvasKr
+version: 1.0.0
+api: 3.10.0
+website: https://github.com/GodVas
+
+permissions:
+  minelist.addreward.permission:
+    default: op
+  minelist.deletereward.permission:
+    default: op
+  minelist.recommend.permission:
+    default: true
