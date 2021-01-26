@@ -40,7 +40,7 @@ final class NetworkThread{
             $j = -1;
             while ($j < count($slots)) {
                 $j++;
-                if (isset($slots[$j]) || $slots[$j] !== $player->getLowerCaseName()) {
+                if (!isset($slots[$j]) || $slots[$j] !== $player->getLowerCaseName()) {
                     continue;
                 }
                 $temp = $j;
